@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report MustUnderstand="df" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily">
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+  <AutoRefresh>0</AutoRefresh>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Image Name="Image2">
+            <Source>Embedded</Source>
+            <Value>imglogo</Value>
+            <Sizing>Fit</Sizing>
+            <Height>1.42645cm</Height>
+            <Width>3.12815cm</Width>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Image>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ACUERDO DE CONFIDENCIALIDAD DE LA</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>11pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>INFORMACION</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>11pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <LeftIndent>0cm</LeftIndent>
+                <RightIndent>0.0441cm</RightIndent>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                  <LineHeight>12pt</LineHeight>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Left>3.12815cm</Left>
+            <Height>1.42645cm</Height>
+            <Width>9.22742cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <LeftBorder>
+                <Style>None</Style>
+              </LeftBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CÓDIGO</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Left>12.35557cm</Left>
+            <Height>0.77485cm</Height>
+            <Width>2.57056cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <LeftBorder>
+                <Style>None</Style>
+              </LeftBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox4">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>VERSIÓN</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial</FontFamily>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>0.75185cm</Top>
+            <Left>12.35557cm</Left>
+            <Height>0.67461cm</Height>
+            <Width>2.57056cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <TopBorder>
+                <Style>None</Style>
+              </TopBorder>
+              <LeftBorder>
+                <Style>None</Style>
+              </LeftBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox5">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>F-S-01</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>11pt</FontSize>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Left>14.92613cm</Left>
+            <Height>0.77485cm</Height>
+            <Width>2.93879cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <LeftBorder>
+                <Style>None</Style>
+              </LeftBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>V6 (10/11/2020)</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial</FontFamily>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>0.75185cm</Top>
+            <Left>14.92613cm</Left>
+            <Height>0.67459cm</Height>
+            <Width>2.93879cm</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <TopBorder>
+                <Style>None</Style>
+              </TopBorder>
+              <LeftBorder>
+                <Style>None</Style>
+              </LeftBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Una vez impreso este documento se considera COPIA NO CONTROLADA y es responsabilidad del Líder del Proceso asegurar su actualización.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>ARial</FontFamily>
+                      <FontSize>7.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox7</rd:DefaultName>
+            <Top>1.46173cm</Top>
+            <Height>0.51181cm</Height>
+            <Width>17.86492cm</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox8">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CONSIDERACIONES: </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>1. Las partes están interesadas </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>en firmar el acuerdo confidencialidad y  </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>COMPARTIR INFORMACION A TRAVÉS DEL SISTEMA EXTRANET DE HIGUERA ESCALANTE &amp; CIA LTDA, PARA LA CONSULTA DE RESULTADOS DE LABORATORIO CLÍNICO DE PACIENTES ATENDIDOS EN RELACION AL ACUERDO CONTRACTUAL</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>2. Debido a la naturaleza del trabajo, se hace necesario que éstas manejen información confidencial y/o información sujeta a derechos de propiedad intelectual, antes, durante y en la etapa posterior. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CLÁUSULAS: </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>PRIMERA.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> OBJETO. El objeto del presente acuerdo es fijar los términos y condiciones bajo los cuales las partes mantendrán la confidencialidad de los datos e información intercambiados entre ellas, incluyendo información objeto de derecho de autor, patentes, técnicas, modelos, invenciones, know-how, procesos, algoritmos, programas, ejecutables, investigaciones, detalles de diseño, información financiera, lista de clientes, inversionistas, empleados, relaciones de negocios y contractuales, pronósticos de negocios, planes de mercadeo e cualquier información revelada sobre terceras personas. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>SEGUNDA</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. CONFIDENCIALIDAD. Las partes acuerdan que cualquier información intercambiada, facilitada o creada entre ellas en el transcurso del CONTRATO, será mantenida en estricta confidencialidad. La parte receptora correspondiente sólo podrá revelar información confidencial a quienes la necesiten y estén autorizados previamente por la parte de cuya información confidencial se trata. Se considera también información confidencial: a) Aquella que como conjunto o por la configuración o estructuración exacta de sus componentes, no sea generalmente conocida entre los expertos en los campos correspondientes. b) La que no sea de fácil acceso, y c) Aquella información que no esté sujeta a medidas de protección razonables, de acuerdo con las circunstancias del caso, a fin de mantener su carácter confidencial. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>TERCERA</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. EXCEPCIONES. No habrá deber alguno de confidencialidad en los siguientes casos: a) Cuando la parte receptora tenga evidencia de que conoce previamente la información recibida; b) Cuando la información recibida sea de dominio público y, c) Cuando la información deje de ser confidencial por ser revelada por el propietario. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CUARTA. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>DURACION. Este acuerdo regirá durante el tiempo que dure EL CONTRATO hasta un término de tres años contados a partir de la terminación del mismo. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>QUINTA</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. DERECHOS DE PROPIEDAD. Toda información intercambiada es de propiedad exclusiva de la parte de donde proceda. En consecuencia, ninguna de las partes utilizará información de la otra para su propio uso. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>SEXTA</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>. MODIFICACIÓN O TERMINACIÓN. Este acuerdo solo podrá ser modificado o darse por terminado con el consentimiento expreso por escrito de ambas partes. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>SÉPTIMA.</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> VALIDEZ Y PERFECCIONAMIENTO. El presente Acuerdo requiere para su validez y perfeccionamiento la firma de las partes. </Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>General</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox8</rd:DefaultName>
+            <Top>3.63382cm</Top>
+            <Height>12.1486cm</Height>
+            <Width>17.86492cm</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox9">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="Entre los suscritos a saber, por una parte, &lt;b&gt;Higuera Escalante &amp; cia Ltda con NIT.800039986-8, representada legalmente por Miriam Boo Araujo, identificada con cedula de ciudadanía No. 32.631.293 de Barranquilla o quien haga las veces de representante legal a la firma del presente documento&lt;/b&gt;.; y por la otra, " &amp; Parameters!Nombre1.Value &amp; " " &amp; Parameters!Nombre2.Value &amp; " " &amp; Parameters!Apellido1.Value &amp; " " &amp; Parameters!Apellido2.Value &amp; " mayor de edad y domiciliado en la ciudad de " &amp; Parameters!Ciudad.Value &amp; ", &lt;b&gt;identificado (a) con cedula de ciudadanía No. &lt;/b&gt;" &amp; Parameters!Identification.Value &amp; ", quien actúa en nombre de " &amp; Parameters!Empresa.Value &amp; ", se ha acordado celebrar el presente Acuerdo de Confidencialidad que se regirá por las siguientes cláusulas, previas las siguientes: "</Value>
+                    <MarkupType>HTML</MarkupType>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox9</rd:DefaultName>
+            <Top>2.11465cm</Top>
+            <Height>1.44861cm</Height>
+            <Width>17.86492cm</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="Para constancia, y en señal de aceptación, se firma el presente acuerdo en 1 ejemplares, por las partes que en él han intervenido, en la ciudad de Floridablanca a los "&amp; Day(Globals!ExecutionTime) &amp;" días del mes de "&amp;MonthName(Month(Globals!ExecutionTime))&amp;" del año "&amp;Year(Globals!ExecutionTime)&amp;". "</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9.5pt</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox10</rd:DefaultName>
+            <Top>15.88825cm</Top>
+            <Height>0.97175cm</Height>
+            <Width>17.86492cm</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox12">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Representante legal -Higuera Escalante &amp; Cía. Ltda</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>ARIAL Narrow</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox12</rd:DefaultName>
+            <Top>18.02609cm</Top>
+            <Left>10.06226cm</Left>
+            <Height>0.6cm</Height>
+            <Width>7.48736cm</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line1">
+            <Top>17.95554cm</Top>
+            <Height>0cm</Height>
+            <Width>5.56046cm</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Line Name="Line2">
+            <Top>17.95554cm</Top>
+            <Left>10.06226cm</Left>
+            <Height>0cm</Height>
+            <Width>6.98464cm</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="Nombre y apellidos: " &amp; Parameters!Nombre1.Value &amp; " " &amp; Parameters!Nombre2.Value &amp; " " &amp; Parameters!Apellido1.Value &amp; " " &amp; Parameters!Apellido2.Value</Value>
+                    <Style>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>18.6611cm</Top>
+            <Height>0.6cm</Height>
+            <Width>9.00005cm</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox14">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="Título Profesional/Cargo: " &amp; Parameters!Occupation.Value</Value>
+                    <Style>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>19.29638cm</Top>
+            <Height>0.6cm</Height>
+            <Width>9.00005cm</Width>
+            <ZIndex>14</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox15">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>="No. Identificación: " &amp; Parameters!Identification.Value</Value>
+                    <Style>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>19.93165cm</Top>
+            <Height>0.6cm</Height>
+            <Width>9.00005cm</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox18">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CC:</Value>
+                    <Style>
+                      <FontStyle>Normal</FontStyle>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <TextDecoration>None</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>18.66137cm</Top>
+            <Left>10.06226cm</Left>
+            <Height>0.6cm</Height>
+            <Width>7.48736cm</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Firma</Value>
+                    <Style>
+                      <FontFamily>Arial Narrow</FontFamily>
+                      <FontSize>9pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>18.02609cm</Top>
+            <Height>0.6cm</Height>
+            <Width>9.00005cm</Width>
+            <ZIndex>17</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>8.08333in</Height>
+        <Style />
+      </Body>
+      <Width>7.03343in</Width>
+      <Page>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <LeftMargin>1.5cm</LeftMargin>
+        <RightMargin>1.5cm</RightMargin>
+        <TopMargin>1.5cm</TopMargin>
+        <BottomMargin>1.5cm</BottomMargin>
+        <ColumnSpacing>0.13cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="Ciudad">
+      <DataType>String</DataType>
+      <Prompt>Ciudad</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Empresa">
+      <DataType>String</DataType>
+      <Prompt>Empresa</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Occupation">
+      <DataType>String</DataType>
+      <Prompt>Occupation</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Identification">
+      <DataType>String</DataType>
+      <Prompt>Identification</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Nombre1">
+      <DataType>String</DataType>
+      <Prompt>Nombre1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Nombre2">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Nombre2</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Apellido1">
+      <DataType>String</DataType>
+      <Prompt>Apellido1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Apellido2">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Apellido2</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>3</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Ciudad</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Empresa</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Occupation</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Identification</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Nombre1</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Nombre2</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Apellido1</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>Apellido2</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <EmbeddedImages>
+    <EmbeddedImage Name="imglogo">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>8202f663-aa0c-4380-b24c-1d66f1b9195c</rd:ReportID>
+</Report>

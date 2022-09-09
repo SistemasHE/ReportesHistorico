@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DBHOSTHE</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@FechaInicial">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@FechaFinal">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>  SELECT DISTINCT CO.OrderNumber, T.Name AS Prueba,  
+  TP.Name, --ST2.UserName, 
+    SUBSTRING(
+        (
+            SELECT ','+ST1.State  AS [text()]
+            FROM  AUDITORIA.dbo.TRACEABILITY_DATA  ST1
+			
+            WHERE ST1.CustomerOrderId = ST2.CustomerOrderId AND ST1.CustomerOrderTestParameterId = ST2.CustomerOrderTestParameterId --AND ST1.UserName = ST2.UserName
+            ORDER BY ST1.CustomerOrderId, ST1.CustomerOrderTestParameterId, ST1.UserName, ST1.ChangeDate
+            FOR XML PATH ('')
+        ), 2, 1000) as CambiosEstado,
+		 SUBSTRING(
+        (
+            SELECT ','+ST1.UserName  AS [text()]
+            FROM  AUDITORIA.dbo.TRACEABILITY_DATA  ST1
+			
+            WHERE ST1.CustomerOrderId = ST2.CustomerOrderId AND ST1.CustomerOrderTestParameterId = ST2.CustomerOrderTestParameterId --AND ST1.UserName = ST2.UserName
+            ORDER BY ST1.CustomerOrderId, ST1.CustomerOrderTestParameterId, ST1.UserName, ST1.ChangeDate
+            FOR XML PATH ('')
+        ), 2, 1000) as CambiosUsuario,
+		 SUBSTRING(
+        (
+            SELECT ' Resultado: '+ST1.Result  AS [text()]
+            FROM  AUDITORIA.dbo.TRACEABILITY_DATA  ST1
+			
+            WHERE ST1.CustomerOrderId = ST2.CustomerOrderId AND ST1.CustomerOrderTestParameterId = ST2.CustomerOrderTestParameterId --AND ST1.UserName = ST2.UserName
+            ORDER BY ST1.CustomerOrderId, ST1.CustomerOrderTestParameterId, ST1.UserName, ST1.ChangeDate
+            FOR XML PATH ('')
+        ), 2, 1000) as CambiosResultado,
+		 SUBSTRING(
+        (
+            SELECT ', '+ CONVERT(varchar, ST1.ChangeDate,0) AS [text()]
+            FROM  AUDITORIA.dbo.TRACEABILITY_DATA  ST1
+			
+            WHERE ST1.CustomerOrderId = ST2.CustomerOrderId AND ST1.CustomerOrderTestParameterId = ST2.CustomerOrderTestParameterId --AND ST1.UserName = ST2.UserName
+            ORDER BY ST1.CustomerOrderId, ST1.CustomerOrderTestParameterId, ST1.UserName, ST1.ChangeDate
+            FOR XML PATH ('')
+        ), 2, 1000) as FechasCambios
+FROM  AUDITORIA.dbo.TRACEABILITY_DATA  ST2
+INNER JOIN HigueraEscalante.dbo.CUSTOMER_ORDER_TEST_PARAMETER COTP ON COTP.CustomerOrderTestParameterId = ST2.CustomerOrderTestParameterId
+INNER JOIN HigueraEscalante.dbo.TEST_PARAMETER TP ON TP.TestParameterId = COTP.TestParameterId
+INNER JOIN HigueraEscalante.dbo.CUSTOMER_ORDER CO ON CO.CustomerOrderId = ST2.CustomerOrderId
+INNER JOIN HigueraEscalante.dbo.TEST T ON T.TestId=TP.TestId
+where ( SUBSTRING(
+        (
+            SELECT ','+ST1.State  AS [text()]
+            FROM  AUDITORIA.dbo.TRACEABILITY_DATA  ST1
+			
+            WHERE ST1.CustomerOrderId = ST2.CustomerOrderId AND ST1.CustomerOrderTestParameterId = ST2.CustomerOrderTestParameterId --AND ST1.UserName = ST2.UserName
+            ORDER BY ST1.CustomerOrderId, ST1.CustomerOrderTestParameterId, ST1.UserName, ST1.ChangeDate
+            FOR XML PATH ('')
+        ), 2, 1000)) like '%C,P%'
+ AND CONVERT(date, ST2.ChangeDate) between CONVERT(VARCHAR,  @FechaInicial, 103) AND CONVERT(VARCHAR,  @FechaFinal, 103)</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="OrderNumber">
+        <DataField>OrderNumber</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Prueba">
+        <DataField>Prueba</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Name">
+        <DataField>Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CambiosEstado">
+        <DataField>CambiosEstado</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CambiosUsuario">
+        <DataField>CambiosUsuario</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CambiosResultado">
+        <DataField>CambiosResultado</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FechasCambios">
+        <DataField>FechasCambios</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

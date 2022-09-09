@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DsDBHOSTHE</DataSourceReference>
+      <CommandText>SELECT BranchId, '('+CODE +') '+Name AS Names FROM BRANCH ORDER BY CODE</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="BranchId">
+        <DataField>BranchId</DataField>
+        <rd:TypeName>System.Guid</rd:TypeName>
+      </Field>
+      <Field Name="Names">
+        <DataField>Names</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

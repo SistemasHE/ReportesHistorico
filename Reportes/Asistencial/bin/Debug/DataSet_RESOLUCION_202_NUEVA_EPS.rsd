@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DBHOSTHE</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@DateIni">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@DateEnd">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@CustomerAccountId">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>AnsiString</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>Reportes.COOMEVA_PREPAGADA_RESO4505_cambiosResolucion_Comodin_NE</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Fecha">
+        <DataField>Fecha</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Edad">
+        <DataField>Edad</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID0__Tipo_De_Registro">
+        <DataField>0. Tipo De Registro</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID1__Consecutivo_de_registro">
+        <DataField>1. Consecutivo de registro</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID2__Codigo_de_Habilitacion_IPS_primaria">
+        <DataField>2. Codigo de Habilitacion IPS primaria</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID3__Tipo_de_identificación_del_usuario">
+        <DataField>3. Tipo de identificación del usuario</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID4__Número_de_identificación_del_usuario">
+        <DataField>4. Número de identificación del usuario</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID5__Primer_apellido_del_usuario">
+        <DataField>5. Primer apellido del usuario</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID6__Segundo_apellido_del_usuario">
+        <DataField>6. Segundo apellido del usuario</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID7__Primer_nombre_del_usuario">
+        <DataField>7. Primer nombre del usuario</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID8__Segundo_nombre_del_usuario">
+        <DataField>8. Segundo nombre del usuario</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID9__Fecha_de_Nacimiento">
+        <DataField>9. Fecha de Nacimiento</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID10__Sexo">
+        <DataField>10. Sexo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID11__Código_pertenencia_étnica">
+        <DataField>11. Código pertenencia étnica</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID12__Código_de_ocupación">
+        <DataField>12. Código de ocupación</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID13__Código_de_nivel_educativo">
+        <DataField>13. Código de nivel educativo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID14__Gestación">
+        <DataField>14. Gestación</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID15__Sífilis_Gestacional_o_congénita">
+        <DataField>15. Sífilis Gestacional o congénita</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID16__Resultado_de_la_prueba_minimental_state">
+        <DataField>16. Resultado de la prueba minimental state</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID17__Hipotiroidismo_Congénito">
+        <DataField>17. Hipotiroidismo Congénito</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID18__Sintomático_Respiratorio">
+        <DataField>18. Sintomático Respiratorio</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID19__Consumo_de_tabaco">
+        <DataField>19. Consumo de tabaco</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID20__Lepra">
+        <DataField>20. Lepra</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID21__Obesidad_o_Desnutrición_Proteico_Calórica">
+        <DataField>21. Obesidad o Desnutrición Proteico Calórica</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID22__Resultado_del_tacto_rectal">
+        <DataField>22. Resultado del tacto rectal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID23__Acido_fólico_preconcepcional">
+        <DataField>23. Acido fólico preconcepcional</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID24__Resultado_de_la_prueba_sangre_oculta_en_materia_fecal__tamizaje_Ca_de_colon_">
+        <DataField>24. Resultado de la prueba sangre oculta en materia fecal (tamizaje Ca de colon)</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID25__Enfermedad_Mental">
+        <DataField>25. Enfermedad Mental</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID26__Cáncer_de_Cérvix">
+        <DataField>26. Cáncer de Cérvix</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID27__Cáncer_de_Seno">
+        <DataField>27. Cáncer de Seno</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID28__Fluorosis_Dental">
+        <DataField>28. Fluorosis Dental</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID29__Fecha_del_Peso">
+        <DataField>29. Fecha del Peso</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID30__Peso_en_Kilogramos">
+        <DataField>30. Peso en Kilogramos</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID31__Fecha_de_la_Talla">
+        <DataField>31. Fecha de la Talla</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID32__Talla_en_Centímetros">
+        <DataField>32. Talla en Centímetros</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID33__Fecha_Probable_de_Parto">
+        <DataField>33. Fecha Probable de Parto</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID34__Código_pais">
+        <DataField>34. Código pais</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID35__Clasificación_del_riesgo_gestacional">
+        <DataField>35. Clasificación del riesgo gestacional</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID36__Resultado_de_colonscopia_tamizaje">
+        <DataField>36. Resultado de colonscopia tamizaje</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID37__Pentavalente">
+        <DataField>37. Pentavalente</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID38__Resultado_de_tamizaje_audit_neonatal">
+        <DataField>38. Resultado de tamizaje audit neonatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID39__DPT_menores_de_5_años">
+        <DataField>39. DPT menores de 5 años</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID40__Resultado_de_tamizaje_VALE">
+        <DataField>40. Resultado de tamizaje VALE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID41__Neumococo">
+        <DataField>41. Neumococo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID42__Resultado_de_tamizaje_hepatitis_C">
+        <DataField>42. Resultado de tamizaje hepatitis C</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID43__Resultado_de_escala_abreviada_de_desarrollo_area_de_motrocidad_gruesa">
+        <DataField>43. Resultado de escala abreviada de desarrollo area de motrocidad gruesa</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID44__Resultado_de_escala_abreviada_de_desarrollo_area_de_motrocidad_finoadaptativa">
+        <DataField>44. Resultado de escala abreviada de desarrollo area de motrocidad finoadaptativa</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID45__Resultado_de_escala_abreviada_de_desarrollo_area_personal_social">
+        <DataField>45. Resultado de escala abreviada de desarrollo area personal social</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID46__Resultado_de_escala_abreviada_de_desarrollo_area_de_motrocida_audicion_lenugaje">
+        <DataField>46. Resultado de escala abreviada de desarrollo area de motrocida audicion lenugaje</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID47__Tratamiento_ablativo_o_de_escision_posterior_a_la_realización_de_la_tecnica">
+        <DataField>47. Tratamiento ablativo o de escision posterior a la realización de la tecnica</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID48__Resultado_de_tamizacion_con_oximetria_pre_y_post_ductal">
+        <DataField>48. Resultado de tamizacion con oximetria pre y post ductal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID49__Fecha_atención_parto_o_cesárea">
+        <DataField>49. Fecha atención parto o cesárea</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID50__Fecha_salida_de_la_atención_del_parto_o_cesárea">
+        <DataField>50. Fecha salida de la atención del parto o cesárea</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID51__Fecha_de_consejería_en_Lactancia_Materna">
+        <DataField>51. Fecha de consejería en Lactancia Materna</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID52__Fecha_de_consulta_de_valoracion_integral">
+        <DataField>52. Fecha de consulta de valoracion integral</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID53__Fecha_atencion_en_salud_apara_asesoria_en_anticoncepcion">
+        <DataField>53. Fecha atencion en salud apara asesoria en anticoncepcion</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID54__Suministro_de_Método_Anticonceptivo">
+        <DataField>54. Suministro de Método Anticonceptivo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID55__Fecha_Suministro_de_Método_Anticonceptivo">
+        <DataField>55. Fecha Suministro de Método Anticonceptivo</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID56__Fecha_de_primera_consulta_prenatal">
+        <DataField>56. Fecha de primera consulta prenatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID57__Resultado_de_glicemia_basal">
+        <DataField>57. Resultado de glicemia basal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID58__Último_Control_Prenatal">
+        <DataField>58. Último Control Prenatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID59__Suministro_de_Ácido_Fólico_en_el_Último_Control_Prenatal">
+        <DataField>59. Suministro de Ácido Fólico en el Último Control Prenatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID60__Suministro_de_Sulfato_Ferroso_en_el_Último_Control_Prenatal">
+        <DataField>60. Suministro de Sulfato Ferroso en el Último Control Prenatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID61__Suministro_de_Carbonato_de_Calcio_en_el_Último_Control_Prenatal">
+        <DataField>61. Suministro de Carbonato de Calcio en el Último Control Prenatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID62__Valoración_de_la_Agudeza_Visual">
+        <DataField>62. Valoración de la Agudeza Visual</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID63__Fecha_de_tamizaje_VALE">
+        <DataField>63. Fecha de tamizaje VALE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID64__Fecha_del_tacto_rectal">
+        <DataField>64. Fecha del tacto rectal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID65__Fecha_de_tamizacion_con_oximetria_pre_y_post_ductol">
+        <DataField>65. Fecha de tamizacion con oximetria pre y post ductol</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID66__FEcha_de_realización_colonscopia_tamizaje">
+        <DataField>66. FEcha de realización colonscopia tamizaje</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID67__Fecha_de_la_prueba_sangre_oculta_en_materia_fecal">
+        <DataField>67. Fecha de la prueba sangre oculta en materia fecal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID68__Consulta_de_Psicología">
+        <DataField>68. Consulta de Psicología</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID69__Fecha_de_tamizaje_auditivo_neonatal">
+        <DataField>69. Fecha de tamizaje auditivo neonatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID70__Suministro_de_fortificacion_casera_en_la_priemra_infancia">
+        <DataField>70. Suministro de fortificacion casera en la priemra infancia</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID71__Suministro_de_Vitamina_A_en_la_primera_infancia">
+        <DataField>71. Suministro de Vitamina A en la primera infancia</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID72__Fecha_de_toma_LDL">
+        <DataField>72. Fecha de toma LDL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID73__Fecha_de_toma_PSA">
+        <DataField>73. Fecha de toma PSA</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID74__Preservativos_entregados_a_pacientes_con_ITS">
+        <DataField>74. Preservativos entregados a pacientes con ITS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID75__Fecha_de_tamizaje_visual_neonatal">
+        <DataField>75. Fecha de tamizaje visual neonatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID76__Fecha_de_atencion_en_salud_bucal_por_prefesional_en_odontologia">
+        <DataField>76. Fecha de atencion en salud bucal por prefesional en odontologia</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID77__Suministro_de_hierro_en_la_primera_infancia">
+        <DataField>77. Suministro de hierro en la primera infancia</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID78__Fecha_Antígeno_de_Superficie_Hepatitis_B">
+        <DataField>78. Fecha Antígeno de Superficie Hepatitis B</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID79__Resultado_Antígeno_de_Superficie_Hepatitis_B">
+        <DataField>79. Resultado Antígeno de Superficie Hepatitis B</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID80__Fecha_de_toma_de_prueba_tamizaje_para_sifilis">
+        <DataField>80. Fecha de toma de prueba tamizaje para sifilis</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID81__Resultado_de_prueba_tamizaje_para_sifilis">
+        <DataField>81. Resultado de prueba tamizaje para sifilis</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID82__Fecha_de_toma_de_prueba_para_VIH">
+        <DataField>82. Fecha de toma de prueba para VIH</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID83__Resultado_prueba_para_VIH">
+        <DataField>83. Resultado prueba para VIH</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID84__Fecha_TSH_Neonatal">
+        <DataField>84. Fecha TSH Neonatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID85__Resultado_de_TSH_Neonatal">
+        <DataField>85. Resultado de TSH Neonatal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID86__Tamizaje_Cáncer_de_Cuello_Uterino">
+        <DataField>86. Tamizaje Cáncer de Cuello Uterino</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID87__Fecha_Tamizaje_Cáncer_de_Cuello_Uterino">
+        <DataField>87. Fecha Tamizaje Cáncer de Cuello Uterino</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID88__Resultado_Tamizaje_Cáncer_de_Cuello_Uterino">
+        <DataField>88. Resultado Tamizaje Cáncer de Cuello Uterino</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID89__Calidad_en_la_Muestra_de_Citología_Cervicouterina">
+        <DataField>89. Calidad en la Muestra de Citología Cervicouterina</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID90__Código_de_habilitación_IPS_donde_se_toma_Citología_Cervicouterina">
+        <DataField>90. Código de habilitación IPS donde se toma Citología Cervicouterina</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID91__Fecha_Colposcopia">
+        <DataField>91. Fecha Colposcopia</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID92__Resultado_de_LDL">
+        <DataField>92. Resultado de LDL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID93__Fecha_Biopsia_Cervical">
+        <DataField>93. Fecha Biopsia Cervical</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID94__Resultado_de_Biopsia_Cervical">
+        <DataField>94. Resultado de Biopsia Cervical</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID95__Resultado_HDL">
+        <DataField>95. Resultado HDL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID96__Fecha_Mamografía">
+        <DataField>96. Fecha Mamografía</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID97__Resultado_Mamografía">
+        <DataField>97. Resultado Mamografía</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID98__Resultado_Triglicerios">
+        <DataField>98. Resultado Triglicerios</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID99__Fecha_Toma_Biopsia_de_mama">
+        <DataField>99. Fecha Toma Biopsia de mama</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID100__Fecha_Resultado_Biopsia_de_mama">
+        <DataField>100. Fecha Resultado Biopsia de mama</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID101__Resultado_Biopsia_de_mama">
+        <DataField>101. Resultado Biopsia de mama</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID102__COP_por_persona">
+        <DataField>102. COP por persona</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID103__Fecha_Toma_de_Hemoglobina">
+        <DataField>103. Fecha Toma de Hemoglobina</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID104__Resultado_Hemoglobina">
+        <DataField>104. Resultado Hemoglobina</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID105__Fecha_de_la_Toma_de_Glicemia_Basal">
+        <DataField>105. Fecha de la Toma de Glicemia Basal</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID106__Fecha_Creatinina">
+        <DataField>106. Fecha Creatinina</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID107__Creatinina">
+        <DataField>107. Creatinina</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID108__Preservativos_entregados_pacientes_con_ITS">
+        <DataField>108. Preservativos entregados pacientes con ITS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID109__Resultado_de_PSA">
+        <DataField>109. Resultado de PSA</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID110__Fecha_de_toma_de_tamizaje_hepatitis_C">
+        <DataField>110. Fecha de toma de tamizaje hepatitis C</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID111__Fecha_Toma_de_HDL">
+        <DataField>111. Fecha Toma de HDL</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID112__Fecha_Toma_de_Baciloscopia_de_Diagnóstico">
+        <DataField>112. Fecha Toma de Baciloscopia de Diagnóstico</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID113__Baciloscopia_de_Diagnóstico">
+        <DataField>113. Baciloscopia de Diagnóstico</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID114__Clasificacion_del_riesgo_cardiovascular">
+        <DataField>114. Clasificacion del riesgo cardiovascular</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID115__Tratamiento_para_Sífilis_gestacional">
+        <DataField>115. Tratamiento para Sífilis gestacional</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID116__Tratamiento_para_Sífilis_Congénita">
+        <DataField>116. Tratamiento para Sífilis Congénita</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID117__Clasificacion_del_riesgo_metabolico">
+        <DataField>117. Clasificacion del riesgo metabolico</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID118__Fecha_de_toma_de_triglicerios">
+        <DataField>118. Fecha de toma de triglicerios</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Ds_SolicitudesVirtuales">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DBSILHE;Initial Catalog=SolicitudesVirtuales</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>3e74123e-2a3a-4940-8c01-c9e8968775cd</DataSourceID>
+</RptDataSource>

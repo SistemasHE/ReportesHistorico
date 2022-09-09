@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <FullPath>Debug</FullPath>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>True</OverwriteDatasets>
+    <OverwriteDataSources>True</OverwriteDataSources>
+    <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Reportes Domicilios</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Reportes Silhe</TargetReportPartFolder>
+    <TargetServerURL>http://dblabhe/ReportServer_DBLABHE</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
+    <FullPath>DebugLocal</FullPath>
+    <OutputPath>bin\DebugLocal</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Reportes Domicilios</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <FullPath>Release</FullPath>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Reportes Domicilios</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup>
+    <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD50cnVlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+U0FLPC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+U0FLPC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPlNBSzwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+U0FLPC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+    <DataSources>@(DataSource)</DataSources>
+    <DataSets>@(DataSet)</DataSets>
+    <Reports>@(Report)</Reports>
+  </PropertyGroup>
+  <ItemGroup>
+    <DataSet Include="DataSet_detalle_canceladas.rsd" />
+    <DataSet Include="DataSet_detalle_efectivas.rsd" />
+    <DataSet Include="DataSet_detalle_prepost.rsd" />
+    <DataSet Include="DataSet_detalle_programadas.rsd" />
+    <DataSet Include="DataSet_detalle_reprogramadas.rsd" />
+    <DataSet Include="DataSet_detalle_solicitudes_easylab.rsd" />
+    <DataSet Include="DataSet_GeneradosEasyLab.rsd" />
+    <DataSet Include="DataSet_pedidos_fuera_de_horario.rsd" />
+    <DataSet Include="DataSet_ReportSolicitudesDomi.rsd" />
+    <DataSet Include="DataSet_select_reprogramados.rsd" />
+    <DataSet Include="DataSet_solicitudes_total.rsd" />
+    <DataSet Include="DataSet_solicitudes_totales_por_auxiliar.rsd" />
+    <DataSet Include="DataSet_years.rsd" />
+    <DataSet Include="Ds_ordenes_tme_anuladas_detallado_domicilios.rsd" />
+    <DataSet Include="Ds_ordenes_tme_anuladas_resumido.rsd" />
+    <DataSet Include="Ds_ordenes_tme_generadas_detallado.rsd" />
+    <DataSet Include="Ds_ordenes_tme_generadas_resumido.rsd" />
+    <DataSet Include="INFORME_VENTAS_COVID19.rsd" />
+    <DataSet Include="Log_Schedule_History_by_OrderNumber.rsd" />
+    <DataSet Include="rpt_GET_ORDERS_NOT_DOMICILIARY.rsd" />
+    <DataSet Include="RPT_MOVEMENTS_DOMICILIARY_BY_DATE.rsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <DataSource Include="DsDBSILAB.rds" />
+    <DataSource Include="DsHigueraEscalante.rds" />
+    <DataSource Include="Ds_SolicitudesVirtuales.rds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Report Include="Bloqueo de Agenda.rdl" />
+    <Report Include="INFORME_VENTAS_COVID19.rdl" />
+    <Report Include="Log_Schedule_History_by_OrderNumber.rdl" />
+    <Report Include="PlanesDeBienestar.rdl" />
+    <Report Include="Programadas con Cliente y Cuenta.rdl" />
+    <Report Include="Report Solicitudes Easylab.rdl" />
+    <Report Include="Reporte Cumplimiento de Rutero.rdl" />
+    <Report Include="Reporte Detallado de Solicitudes.rdl" />
+    <Report Include="Reporte Liberacion Solicitudes Online.rdl" />
+    <Report Include="Reporte Reprogramados.rdl" />
+    <Report Include="Reporte Total Solicitudes Por Auxiliar.rdl" />
+    <Report Include="Reporte Total Solicitudes.rdl" />
+    <Report Include="ReporteCalificacionesEasylab.rdl" />
+    <Report Include="ReporteDetalladoCalificacionesEasylab.rdl" />
+    <Report Include="ReporteSolicitudesPorAgente.rdl" />
+    <Report Include="Reporte_OrdenesTME.rdl" />
+    <Report Include="Report_Solicitudes.rdl" />
+    <Report Include="rpt_GET_ORDERS_NOT_DOMICILIARY.rdl" />
+    <Report Include="RPT_MOVEMENTS_DOMICILIARY_BY_DATE.rdl" />
+    <Report Include="Solicitudes Perdidas.rdl" />
+    <Report Include="SolicitudesEasylabFueraDelHorario.rdl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
+</Project>

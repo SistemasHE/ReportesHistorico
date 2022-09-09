@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DBHOSTHE">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=172.16.1.158;Initial Catalog=HigueraEscalante</ConnectString>
+    <Prompt>Especifique un nombre de usuario y una contraseña para el origen de datos DataSource1:</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>3b4adcf7-ae4c-4866-9657-017ca76b9f62</DataSourceID>
+</RptDataSource>

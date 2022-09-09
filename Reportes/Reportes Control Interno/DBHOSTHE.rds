@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DBHOSTHE">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DBSILHE;Initial Catalog=HigueraEscalante</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>ffb22d02-c0da-4626-b43d-791053985d2f</DataSourceID>
+</RptDataSource>

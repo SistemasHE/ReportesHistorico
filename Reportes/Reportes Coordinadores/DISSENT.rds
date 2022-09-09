@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DISSENT">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=172.16.1.158;Initial Catalog=DB_SILAB</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>c54bd5fb-8410-4fa1-af8c-01efbd531d50</DataSourceID>
+</RptDataSource>

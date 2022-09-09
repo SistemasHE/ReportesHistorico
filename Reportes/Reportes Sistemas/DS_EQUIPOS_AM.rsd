@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DBHOSTHE</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@FechaInicial">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@FechaFinal">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>Reportes.EQUIPOS_ACREDITACION</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="EMPLAZAMIENTO">
+        <DataField>EMPLAZAMIENTO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CODIGO_DE_BARRAS">
+        <DataField>CODIGO DE BARRAS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ACTIVO">
+        <DataField>ACTIVO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="COMPONENTES_DEL_ACTIVO">
+        <DataField>COMPONENTES DEL ACTIVO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SUBCODIGO_BARRAS">
+        <DataField>SUBCODIGO BARRAS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DISTRIBUIDOR_Y_O_PROVEEDOR">
+        <DataField>DISTRIBUIDOR Y/O PROVEEDOR</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MARCA">
+        <DataField>MARCA</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MODELO">
+        <DataField>MODELO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SERIE">
+        <DataField>SERIE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SECCION">
+        <DataField>SECCION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SEDE">
+        <DataField>SEDE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="PRECIO">
+        <DataField>PRECIO</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="REPOSICION___RENOVACION___ADQUISICION">
+        <DataField>REPOSICION / RENOVACION / ADQUISICION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FECHA_DE_COMPRA">
+        <DataField>FECHA DE COMPRA</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="FECHA_ALCANCE_GARANTIA">
+        <DataField>FECHA ALCANCE GARANTIA</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="FECHA_INGRESO_AL_INVENTARIO">
+        <DataField>FECHA INGRESO AL INVENTARIO</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="FECHA_DE_INSTALACION">
+        <DataField>FECHA DE INSTALACION</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="VIDA_UTIL__Años_">
+        <DataField>VIDA UTIL [Años]</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="VIDA_UTIL_RESTANTE">
+        <DataField>VIDA UTIL RESTANTE</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="AÑOS_DE_USO">
+        <DataField>AÑOS DE USO</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="AÑO_DE_FABRICACION">
+        <DataField>AÑO DE FABRICACION</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="RESPONSABLE_DEL_MANTENIMIENTO">
+        <DataField>RESPONSABLE DEL MANTENIMIENTO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="RESPONSABLE_DEL_EQUIPO">
+        <DataField>RESPONSABLE DEL EQUIPO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="GRUPO">
+        <DataField>GRUPO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SUBGRUPO">
+        <DataField>SUBGRUPO</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Ubicacion">
+        <DataField>Ubicacion</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

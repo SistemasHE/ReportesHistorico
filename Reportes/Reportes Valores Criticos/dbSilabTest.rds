@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="dbSilabTest">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=192.168.10.186;Initial Catalog=DB_SILAB</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>d5733813-bd5e-44be-86c5-8559dfe996ec</DataSourceID>
+</RptDataSource>

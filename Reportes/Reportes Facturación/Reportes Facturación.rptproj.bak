@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ToolsVersion="2.0">
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD50cnVlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+U0FLPC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+U0FLPC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPlNBSzwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+U0FLPC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+  <DataSources>
+    <ProjectItem>
+      <Name>DS_DBHOSHT_HE.rds</Name>
+      <FullPath>DS_DBHOSHT_HE.rds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DsDBHOSTHE.rds</Name>
+      <FullPath>DsDBHOSTHE.rds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>dbsilhe.rds</Name>
+      <FullPath>dbsilhe.rds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSets>
+    <ProjectItem>
+      <Name>ANYOS.rsd</Name>
+      <FullPath>ANYOS.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CANTIDAD_AUDITORIAS_USUARIO.rsd</Name>
+      <FullPath>CANTIDAD_AUDITORIAS_USUARIO.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CANTIDAD_CAMBIOS_SOLICITADOS_A_RECEPCIONISTAS.rsd</Name>
+      <FullPath>CANTIDAD_CAMBIOS_SOLICITADOS_A_RECEPCIONISTAS.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataSet_AUDITORIA_ORDENES.rsd</Name>
+      <FullPath>DataSet_AUDITORIA_ORDENES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataSet_BRANCH.rsd</Name>
+      <FullPath>DataSet_BRANCH.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataSet_DATOS_ORDEN.rsd</Name>
+      <FullPath>DataSet_DATOS_ORDEN.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataSet_ORDENES_ANULADAS_SAP.rsd</Name>
+      <FullPath>DataSet_ORDENES_ANULADAS_SAP.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataSet_ORDENES_PENDIENTES_FAC_CO.rsd</Name>
+      <FullPath>DataSet_ORDENES_PENDIENTES_FAC_CO.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DataSet1.rsd</Name>
+      <FullPath>DataSet1.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURACION_TOTAL.rsd</Name>
+      <FullPath>FACTURACION_TOTAL.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURAS_CONTADO_MES.rsd</Name>
+      <FullPath>FACTURAS_CONTADO_MES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURAS_CREDITO.rsd</Name>
+      <FullPath>FACTURAS_CREDITO.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURAS_CREDITO_ANYO.rsd</Name>
+      <FullPath>FACTURAS_CREDITO_ANYO.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURAS_CREDITO_MES.rsd</Name>
+      <FullPath>FACTURAS_CREDITO_MES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURAS_ORDENES_ANYO.rsd</Name>
+      <FullPath>FACTURAS_ORDENES_ANYO.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>List_CIE10_CATEGORY.rsd</Name>
+      <FullPath>List_CIE10_CATEGORY.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>LIST_HEADQUARTER.rsd</Name>
+      <FullPath>LIST_HEADQUARTER.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>List_InvoicePrefix.rsd</Name>
+      <FullPath>List_InvoicePrefix.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>LIST_YEAR.rsd</Name>
+      <FullPath>LIST_YEAR.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>LISTADO_AUDITORIAS_ORDENES.rsd</Name>
+      <FullPath>LISTADO_AUDITORIAS_ORDENES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>LISTADO_CLIENTES.rsd</Name>
+      <FullPath>LISTADO_CLIENTES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>LISTADO_ORDENES_CLIENTE_DIAGNOSTICO.rsd</Name>
+      <FullPath>LISTADO_ORDENES_CLIENTE_DIAGNOSTICO.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>LISTADO_SEDES.rsd</Name>
+      <FullPath>LISTADO_SEDES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>LISTADO_USUARIOS_AUDITORES.rsd</Name>
+      <FullPath>LISTADO_USUARIOS_AUDITORES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MESES.rsd</Name>
+      <FullPath>MESES.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ORDENES_CREDITO.rsd</Name>
+      <FullPath>ORDENES_CREDITO.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PACIENTE_RANGO_EDAD_SEDE.rsd</Name>
+      <FullPath>PACIENTE_RANGO_EDAD_SEDE.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SEDES_AUDITADAS.rsd</Name>
+      <FullPath>SEDES_AUDITADAS.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TOTAL_FACTURA_Y_PENDIENTE.rsd</Name>
+      <FullPath>TOTAL_FACTURA_Y_PENDIENTE.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TOTALES_CLIENTES_CUENTAS_POR_SEDE.rsd</Name>
+      <FullPath>TOTALES_CLIENTES_CUENTAS_POR_SEDE.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TRAZABILIDAD_SERVICIO_CERTIFACTURAS.rsd</Name>
+      <FullPath>TRAZABILIDAD_SERVICIO_CERTIFACTURAS.rsd</FullPath>
+    </ProjectItem>
+  </DataSets>
+  <Reports>
+    <ProjectItem>
+      <Name>Auditoria_Productos.rdl</Name>
+      <FullPath>Auditoria_Productos.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cantidad Auditoria por Usuario.rdl</Name>
+      <FullPath>Cantidad Auditoria por Usuario.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cantidad Cambios Solicitados.rdl</Name>
+      <FullPath>Cantidad Cambios Solicitados.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Factura Credito Mes.rdl</Name>
+      <FullPath>Factura Credito Mes.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Facturas Contado Mes.rdl</Name>
+      <FullPath>Facturas Contado Mes.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Facturas_ Contado.rdl</Name>
+      <FullPath>Facturas_ Contado.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURAS_CREDITO.rdl</Name>
+      <FullPath>FACTURAS_CREDITO.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACTURAS_CREDITO_ANYO.rdl</Name>
+      <FullPath>FACTURAS_CREDITO_ANYO.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ListadoOrdenesAvanzar.rdl</Name>
+      <FullPath>ListadoOrdenesAvanzar.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Ordenes Anuladas SAP.rdl</Name>
+      <FullPath>Ordenes Anuladas SAP.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Ordenes_Contado.rdl</Name>
+      <FullPath>Ordenes_Contado.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Ordenes_Credito.rdl</Name>
+      <FullPath>Ordenes_Credito.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pacientes por Rango de Edad por sede.rdl</Name>
+      <FullPath>Pacientes por Rango de Edad por sede.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Recibo_orden_cliente.rdl</Name>
+      <FullPath>Recibo_orden_cliente.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Recibo_orden_paciente.rdl</Name>
+      <FullPath>Recibo_orden_paciente.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reporte Auditoria.rdl</Name>
+      <FullPath>Reporte Auditoria.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reporte_ORDENES_POR_CLIENTE.rdl</Name>
+      <FullPath>Reporte_ORDENES_POR_CLIENTE.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Total Facturado.rdl</Name>
+      <FullPath>Total Facturado.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TotalesClientesCuentaPorSede.rdl</Name>
+      <FullPath>TotalesClientesCuentaPorSede.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Trazabilidad Servicio Certifactura.rdl</Name>
+      <FullPath>Trazabilidad Servicio Certifactura.rdl</FullPath>
+    </ProjectItem>
+  </Reports>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\Debug</OutputPath>
+        <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+        <TargetServerURL>http://dblabhe/ReportServer_DBLABHE</TargetServerURL>
+        <TargetFolder>Reportes Facturación</TargetFolder>
+        <TargetDataSourceFolder>Orígenes de datos</TargetDataSourceFolder>
+        <OverwriteDataSources>true</OverwriteDataSources>
+        <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+        <OverwriteDatasets>true</OverwriteDatasets>
+        <TargetReportPartFolder>Reportes Silhe</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DebugLocal</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\DebugLocal</OutputPath>
+        <TargetServerVersion>SSRS2016</TargetServerVersion>
+        <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+        <TargetFolder>Reportes Facturación</TargetFolder>
+        <TargetDataSourceFolder>Orígenes de datos</TargetDataSourceFolder>
+        <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+        <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Release</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\Release</OutputPath>
+        <TargetServerVersion>SSRS2016</TargetServerVersion>
+        <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+        <TargetFolder>Reportes Facturación</TargetFolder>
+        <TargetDataSourceFolder>Orígenes de datos</TargetDataSourceFolder>
+        <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+        <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

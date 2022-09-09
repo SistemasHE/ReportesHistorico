@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DBSILAB">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DBSILHE;Initial Catalog=DB_SILAB</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>e694d2ce-b8c8-4e78-82f5-f623ebec1ff4</DataSourceID>
+</RptDataSource>

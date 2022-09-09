@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <FullPath>Debug</FullPath>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>True</OverwriteDatasets>
+    <OverwriteDataSources>True</OverwriteDataSources>
+    <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Asistencial</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Reportes Silhe</TargetReportPartFolder>
+    <TargetServerURL>http://dblabhe/ReportServer_DBLABHE</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
+    <FullPath>DebugLocal</FullPath>
+    <OutputPath>bin\DebugLocal</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Asistencial</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <FullPath>Release</FullPath>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Asistencial</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup>
+    <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD50cnVlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+U0FLPC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+U0FLPC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPlNBSzwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+U0FLPC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+    <DataSources>@(DataSource)</DataSources>
+    <DataSets>@(DataSet)</DataSets>
+    <Reports>@(Report)</Reports>
+  </PropertyGroup>
+  <ItemGroup>
+    <DataSet Include="ACR_POBLACION_ATENDIDA_TIPO_REGIMEN_BY_BRANCH_AND_TYPEREGIMEN.rsd" />
+    <DataSet Include="Auditoria.rsd" />
+    <DataSet Include="CANTIDAD_DESCARGAS_RESULTADOS.rsd" />
+    <DataSet Include="CANTIDAD_ORDENES_X_TIPOREGIMEN.rsd" />
+    <DataSet Include="CANTIDAD_PACIENTES_ATENDIDOS.rsd" />
+    <DataSet Include="CANTIDAD_RESULTADOS_X_TIPOENTREGA.rsd" />
+    <DataSet Include="DataSet1.rsd" />
+    <DataSet Include="DataSet_10_Asitencia_Personas_Tme_Mes.rsd" />
+    <DataSet Include="DataSet_11_Asitencia_Personas_Fosin_CExterna_Mes.rsd" />
+    <DataSet Include="DataSet_12_Asintecia_Personas_Fosin_Hos_Urg_Mes.rsd" />
+    <DataSet Include="DataSet_13_Asitencia_Personas_UciFosin_Hos_Urg_Mes.rsd" />
+    <DataSet Include="DataSet_14_Asistencia_Personas_Cabecera_Mes.rsd" />
+    <DataSet Include="DataSet_15_Asistencia_Personas_Vip_Mes.rsd" />
+    <DataSet Include="DataSet_16_Poblacion_Atendida_Particulares_Mes.rsd" />
+    <DataSet Include="DataSet_17_Poblacion_Atendida_Prepagada_Mes.rsd" />
+    <DataSet Include="DataSet_19_Servicios_Bolarqui_Mes.rsd" />
+    <DataSet Include="DataSet_1_Examenes_entregados_Mes.rsd" />
+    <DataSet Include="DataSet_20_Servicios_Cal_Mes.rsd" />
+    <DataSet Include="DataSet_21_Asitencia_Personas_Fosunab_Mes.rsd" />
+    <DataSet Include="DataSet_22. Servicios realizados SEDE FOSINTER.rsd" />
+    <DataSet Include="DataSet_23.SERVICIOS_CEXT_FOSI_Mes.rsd" />
+    <DataSet Include="DataSet_25_Servicios_Refer_Contra_Mes.rsd" />
+    <DataSet Include="DataSet_26_Servicios_Cabecera_Mes.rsd" />
+    <DataSet Include="DataSet_27_Servicios_Vip_Mes.rsd" />
+    <DataSet Include="DataSet_28_Poblacion_Atendida_Genomica_Mes.rsd" />
+    <DataSet Include="DataSet_29_Poblacion_Atendida_SanGil_Mes.rsd" />
+    <DataSet Include="DataSet_2_Total_examenes_entregados_Anul.rsd" />
+    <DataSet Include="DataSet_30_Poblacion_Atendida_Piedecuesta_Mes.rsd" />
+    <DataSet Include="DataSet_31_Poblacion_Atendida_Giron_Mes.rsd" />
+    <DataSet Include="DataSet_32_Poblacion_atendida_tipo_regimen.rsd" />
+    <DataSet Include="DataSet_33_Pacientes_embarazo_vih.rsd" />
+    <DataSet Include="DataSet_3_Examenes_realizados_Mes.rsd" />
+    <DataSet Include="DataSet_4_Examenes_Realizados_Anual.rsd" />
+    <DataSet Include="DataSet_5_Examenes_Solicitados-Mes.rsd" />
+    <DataSet Include="DataSet_6_Examenes_Solicitados_Anual.rsd" />
+    <DataSet Include="DataSet_7_Asistencia_Personas_Bolarqui_Mes.rsd" />
+    <DataSet Include="DataSet_8_Asistencia_Personas_CExterna_Mes.rsd" />
+    <DataSet Include="DataSet_9_Asintencia_Personas_Hos_Urg_Mes.rsd" />
+    <DataSet Include="DataSet_PACIENTES_ATENDIDOS_ECOPETROL.rsd" />
+    <DataSet Include="DataSet_PACIENTES_ATENDIDOS_ECOPETROL_COVID.rsd" />
+    <DataSet Include="DataSet_PACIENTES_ATENDIDOS_ECOPETROL_COVID_PCR.rsd" />
+    <DataSet Include="DataSet_RESOLUCION_202_COLSANITAS.rsd" />
+    <DataSet Include="DataSet_RESOLUCION_202_COOMEVA_PREPAGADA.rsd" />
+    <DataSet Include="DataSet_RESOLUCION_202_NUEVA_EPS.rsd" />
+    <DataSet Include="Despachos_Banco_Sangre_Sede.rsd" />
+    <DataSet Include="DsBranch.rsd" />
+    <DataSet Include="DsOrdenesDesvalidadas.rsd" />
+    <DataSet Include="DsReportes_Estado_Examenes.rsd" />
+    <DataSet Include="DsReportes_Estado_Examenes_Resumido.rsd" />
+    <DataSet Include="Ds_OPORTUNIDAD_RESULTADOS.rsd" />
+    <DataSet Include="Ds_SERVICIOS_REALIZADOS_SEDE.rsd" />
+    <DataSet Include="Ds_TIEMPOS_FOSCAL_CONSULTA_EXTERNA.rsd" />
+    <DataSet Include="Listado_Ordenes_Anuladas.rsd" />
+    <DataSet Include="LISTA_CLIENTES_ESPECIFICOS.rsd" />
+    <DataSet Include="LISTA_SECCIONES.rsd" />
+    <DataSet Include="LISTA_SEDES.rsd" />
+    <DataSet Include="LISTA_SEDES_REPORTES.rsd" />
+    <DataSet Include="LISTA_SEDES_TODAS.rsd" />
+    <DataSet Include="LISTA_TIPOS_DESCARGA_RESULTADOS.rsd" />
+    <DataSet Include="LISTA_TIPO_ENTREGA_RESULTADOS.rsd" />
+    <DataSet Include="LISTA_TIPO_REGIMEN.rsd" />
+    <DataSet Include="Movimiento_caja_por_periodo.rsd" />
+    <DataSet Include="Movimiento_caja_punto_venta.rsd" />
+    <DataSet Include="Movimiento_sucursal_diario.rsd" />
+    <DataSet Include="Ordenes_Cuenta_Caja.rsd" />
+    <DataSet Include="Ordenes_Cuenta_Saldo.rsd" />
+    <DataSet Include="Ordenes_Grupos_Sede.rsd" />
+    <DataSet Include="Ordenes_Grupos_Sucursal.rsd" />
+    <DataSet Include="Ordenes_Grupo_Sede_Total.rsd" />
+    <DataSet Include="Ordenes_Gurpo_Sede_SubTotal.rsd" />
+    <DataSet Include="Ordenes_Paciente.rsd" />
+    <DataSet Include="ORDENES_SERVICIO_CLIENTE_ALL.rsd" />
+    <DataSet Include="ORDENES_SERVICIO_CLIENTE_cuent.rsd" />
+    <DataSet Include="ORDENES_SERVICIO_CLIENTE_EXCEL.rsd" />
+    <DataSet Include="REPORTE_PRUEBAS_COVID_PROCESADAS_ECOPETROL.rsd" />
+    <DataSet Include="RPT_CUSTOMER_ORDER_QUANTITY_EXAMS_BRANCH.rsd" />
+    <DataSet Include="RPT_CUSTOMER_ORDER_QUANTITY_EXAMS_BRANCH_by_SCOPE_SERVICE.rsd" />
+    <DataSet Include="RPT_CUSTOMER_ORDER_TEST_VALIDATE.rsd" />
+    <DataSet Include="Test.rsd" />
+    <DataSet Include="TIEMPOS_FOSCAL_HOSPITALIZADOS.rsd" />
+    <DataSet Include="TIEMPOS_OPORTUNIDAD_SEDE.rsd" />
+    <DataSet Include="TOTAL_PaymentQuote.rsd" />
+    <DataSet Include="TOTAL_PaymentRemains.rsd" />
+    <DataSet Include="Ventas_Banco_Sangre.rsd" />
+    <DataSet Include="Ventas_Cuentas_No_POS.rsd" />
+    <DataSet Include="Ventas_Laboratorio.rsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <DataSource Include="DBHOSTHE.rds" />
+    <DataSource Include="DS_DBSILAB.rds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Report Include="Auditoria.rdl" />
+    <Report Include="Despachos_Banco_Sangre_Sede.rdl" />
+    <Report Include="Estado_Ordenes_Resultados.rdl" />
+    <Report Include="INFORME_CANTIDAD_DESCARGAS_RESULTADOS.rdl" />
+    <Report Include="INFORME_CANTIDAD_ORDENES_X_TIPOREGIMEN.rdl" />
+    <Report Include="INFORME_CANTIDAD_PACIENTES_ATENDIDOS_PORCLIENTE.rdl" />
+    <Report Include="INFORME_CANTIDAD_RESULTADOS_TIPOENTREGA.rdl" />
+    <Report Include="INFORME_OPORTUNIDAD_ENTREGA_RESULTADOS.rdl" />
+    <Report Include="INFORME_TIEMPOS_OPORTUNIDAD_SEDE.rdl" />
+    <Report Include="Listado_Ordenes_Anuladas.rdl" />
+    <Report Include="Maestro Resultados.rdl" />
+    <Report Include="Movimiento_ sucursal_diario.rdl" />
+    <Report Include="Movimiento_caja_por_perido.rdl" />
+    <Report Include="Movimiento_caja_punto_venta.rdl" />
+    <Report Include="Ordenes_cuenta_caja.rdl" />
+    <Report Include="Ordenes_cuenta_caja_resumido.rdl" />
+    <Report Include="Ordenes_Grupos_Sede.rdl" />
+    <Report Include="Ordenes_Grupos_Sede_prueba.rdl" />
+    <Report Include="Ordenes_Grupos_Sede_Resumido.rdl" />
+    <Report Include="Ordenes_Grupos_Sucursal.rdl" />
+    <Report Include="Ordenes_Grupos_Sucursal_resumido.rdl" />
+    <Report Include="Ordenes_Paciente.rdl" />
+    <Report Include="ORDENES_SERVICIO_CLIENTE.rdl" />
+    <Report Include="ORDENES_SERVICIO_CLIENTE_CUENTA.rdl" />
+    <Report Include="ORDENES_SERVICIO_CLIENTE_CUENTA_Resumido.rdl" />
+    <Report Include="ordenes_servicio_cliente_excel.rdl" />
+    <Report Include="ORDENES_SERVICIO_CLIENTE_resumido.rdl" />
+    <Report Include="Poblacion_Atendida_sede.rdl" />
+    <Report Include="Poblacion_Atendida_sede_regimen.rdl" />
+    <Report Include="ReporteDiscapacidades.rdl" />
+    <Report Include="ReporteOrdenesEnCaja.rdl" />
+    <Report Include="ReportePACIENTES_ATENDIDOS_ECOPETROL.rdl" />
+    <Report Include="ReportePACIENTES_ATENDIDOS_ECOPETROL_COVID.rdl" />
+    <Report Include="ReportePACIENTES_ATENDIDOS_ECOPETROL_COVID_PCR.rdl" />
+    <Report Include="Reportes_TIEMPOS_FOSCAL_CONSULTA_EXTERNA.rdl" />
+    <Report Include="ReporteValidaciones.rdl" />
+    <Report Include="Reporte_DESCARGAS_WEB.rdl" />
+    <Report Include="Reporte_EXAMENES_VALIDADOS_POR_BACTERIOLOGO.rdl" />
+    <Report Include="Reporte_Indicadores_Ambiental.rdl" />
+    <Report Include="Reporte_PERSONAS_QUE_ASISTIERON_SEDE.rdl" />
+    <Report Include="REPORTE_PRUEBAS_COVID_PROCESADAS_ECOPETROL.rdl" />
+    <Report Include="REPORTE_RES202_COLSANITAS.rdl" />
+    <Report Include="Reporte_RES202_COOMEVA_PREPAGADA.rdl" />
+    <Report Include="REPORTE_RES202_NUEVAEPS.rdl" />
+    <Report Include="Reporte_SERVICIOS_REALIZADOS_SEDE.rdl" />
+    <Report Include="Reporte_SOLICITUDES_EASYLAB_Y_PAGINA_WEB.rdl" />
+    <Report Include="Reporte_TIEMPOS_FOSCAL_HOSPITALIZADOS.rdl" />
+    <Report Include="RPT_CUSTOMER_ORDER_QUANTITY_EXAMS_BRANCH.rdl" />
+    <Report Include="RPT_CUSTOMER_ORDER_QUANTITY_EXAMS_BRANCH_by_SCOPE_SERVICE.rdl" />
+    <Report Include="RPT_CUSTOMER_ORDER_TEST_VALIDATE.rdl" />
+    <Report Include="Ventas_Banco_Sangre.rdl" />
+    <Report Include="Ventas_Cuentas_No_POS.rdl" />
+    <Report Include="Ventas_Laboratorio.rdl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
+</Project>

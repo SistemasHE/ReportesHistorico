@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <FullPath>Debug</FullPath>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>True</OverwriteDatasets>
+    <OverwriteDataSources>True</OverwriteDataSources>
+    <TargetServerVersion>SSRS2008R2</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Reportes Externos</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Reportes Silhe</TargetReportPartFolder>
+    <TargetServerURL>http://dblabhe/ReportServer_DBLABHE</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
+    <FullPath>DebugLocal</FullPath>
+    <OutputPath>bin\DebugLocal</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Reportes Externos</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <FullPath>Release</FullPath>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorLevel>2</ErrorLevel>
+    <OverwriteDatasets>False</OverwriteDatasets>
+    <OverwriteDataSources>False</OverwriteDataSources>
+    <TargetServerVersion>SSRS2016</TargetServerVersion>
+    <Platform>Win32</Platform>
+    <TargetReportFolder>Reportes Externos</TargetReportFolder>
+    <TargetDatasetFolder>Conjuntos de datos</TargetDatasetFolder>
+    <TargetDatasourceFolder>Orígenes de datos</TargetDatasourceFolder>
+    <TargetReportPartFolder>Elementos de informe</TargetReportPartFolder>
+    <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+  </PropertyGroup>
+  <PropertyGroup>
+    <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD50cnVlPC9FbmFibGVkPg0KICA8UHJvamVjdE5hbWU+U0FLPC9Qcm9qZWN0TmFtZT4NCiAgPEF1eFBhdGg+U0FLPC9BdXhQYXRoPg0KICA8TG9jYWxQYXRoPlNBSzwvTG9jYWxQYXRoPg0KICA8UHJvdmlkZXI+U0FLPC9Qcm92aWRlcj4NCjwvU291cmNlQ29udHJvbEluZm8+</State>
+    <DataSources>@(DataSource)</DataSources>
+    <DataSets>@(DataSet)</DataSets>
+    <Reports>@(Report)</Reports>
+  </PropertyGroup>
+  <ItemGroup>
+    <DataSet Include="AÑOS.rsd" />
+    <DataSet Include="DataSet1.rsd" />
+    <DataSet Include="DataSet_PRUEBAS_COVID_ECOPETROL_SIN_AUTORIZACION.rsd" />
+    <DataSet Include="DATOS_NOMINALES.rsd" />
+    <DataSet Include="FOSCAL_CANTIDAD_EXAMENES_SEDE_PGP.rsd" />
+    <DataSet Include="FOSCAL_NUEVAEPS_RES_202.rsd" />
+    <DataSet Include="GESTANTE_HIV_FOSCAL.rsd" />
+    <DataSet Include="GET_ALL_TEST.rsd" />
+    <DataSet Include="LISTA_CLIENTES.rsd" />
+    <DataSet Include="LISTA_CULTIVOS_MICROBIOLOGIA_EXTRANET.rsd" />
+    <DataSet Include="LISTA_EXAMENES_EPIDEMIOLOGICOS_INMUNOLOGIA.rsd" />
+    <DataSet Include="LISTA_EXAMENES_PYP_AVANZAR_MAGISTERIO.rsd" />
+    <DataSet Include="LISTA_EXAMENES_PYP_AVANZAR_NUEVAEPS.rsd" />
+    <DataSet Include="LISTA_IPS_PRIMARY.rsd" />
+    <DataSet Include="LISTA_SEDES.rsd" />
+    <DataSet Include="LISTA_SEDES_AVANZAR_MAGISTERIO.rsd" />
+    <DataSet Include="LISTA_SEDES_AVANZAR_NUEVAEPS.rsd" />
+    <DataSet Include="LISTA_TEST_VC.rsd" />
+    <DataSet Include="LISTA_TEST_VC_NUEVAEPS.rsd" />
+    <DataSet Include="MES.rsd" />
+    <DataSet Include="MUJERES_VIH_FOSCAL.rsd" />
+    <DataSet Include="Reportes_ESTADISTICA_FOSCAL_SEROLOGIA_TSH.rsd" />
+    <DataSet Include="REPORTE_GRUPO_SANGUINEO_TSH.rsd" />
+    <DataSet Include="RTP_CUENTAALTOCOSTORENAL_AVANZAR_NUEVAEPS.rsd" />
+    <DataSet Include="RTP_CULTIVOS_MICROBIOLOGIA_VALIDADOS.rsd" />
+    <DataSet Include="RTP_REPORTES_EPIDEMIOLOGICOS_INMUNOLOGIA.rsd" />
+    <DataSet Include="RTP_REPORTE_OPORTUNIDAD_AVANZAR_MAGISTERIO.rsd" />
+    <DataSet Include="RTP_REPORTE_PYP_AVANZAR.rsd" />
+    <DataSet Include="RTP_VALORES_CRITICOS.rsd" />
+    <DataSet Include="VALORES_CRITCOS_X_CLIENTE.rsd" />
+    <DataSet Include="VALORES_CRITICOS_NUEVA_EPS.rsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <DataSource Include="DB_HOSTHE.rds" />
+    <DataSource Include="DB_SILAB.rds" />
+  </ItemGroup>
+  <ItemGroup>
+    <Report Include="Acuerdo de Confidencialidad.rdl" />
+    <Report Include="Avanzar_Magisterio_Oportunidad.rdl" />
+    <Report Include="Avanzar_Magisterio_Reporte_PYP_.rdl" />
+    <Report Include="Avanzar_NuevaEps_Reporte_AltoCostoRenal.rdl" />
+    <Report Include="Avanzar_NuevaEps_Reporte_PYP.rdl" />
+    <Report Include="Avanzar_NuevaEps_Reporte_ValoresCriticos.rdl" />
+    <Report Include="Cantidad_Diagnosticos_Avanzar.rdl" />
+    <Report Include="Datos_Nominales_PyP.rdl" />
+    <Report Include="Estadistica_Foscal_Serologia_TSH.rdl" />
+    <Report Include="Foscal_Cantidad_Examenes_por_SedePGP.rdl" />
+    <Report Include="Foscal_Cultivos_Microbiologia.rdl" />
+    <Report Include="Foscal_Gestante_HIV.rdl" />
+    <Report Include="Foscal_HIV.rdl" />
+    <Report Include="FOSCAL_NUEVAEPS_RES_202.rdl" />
+    <Report Include="Foscal_Resultados_por_Examen.rdl" />
+    <Report Include="Foscal_ValoresCriticosNuevaEPS.rdl" />
+    <Report Include="Grafico_Solicitudes.rdl" />
+    <Report Include="Reporte_Epidemiologico_Inmunología.rdl" />
+    <Report Include="REPORTE_GRUPOSANGUINEO_TSH.rdl" />
+    <Report Include="Reporte_Pruebas_COVID19_Cliente_Foscal_FoSinter.rdl" />
+    <Report Include="REPORTE_PRUEBAS_COVID_ECOPETROL_SIN_AUTORIZACION.rdl" />
+    <Report Include="Reporte_Valores_Criticos.rdl" />
+    <Report Include="ValoresCriticosXCliente.rdl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
+</Project>
