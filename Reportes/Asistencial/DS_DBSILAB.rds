@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DS_DBSILAB">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=DBSILHE;Initial Catalog=DB_SILAB</ConnectString>
+    <ConnectString>Data Source=192.168.10.186;Initial Catalog=DB_SILAB</ConnectString>
   </ConnectionProperties>
   <DataSourceID>a9500543-57c6-4e16-857d-18008daa04d6</DataSourceID>
 </RptDataSource>

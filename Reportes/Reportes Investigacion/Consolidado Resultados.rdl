@@ -4,7 +4,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="dbhosthe">
-      <DataSourceReference>historico</DataSourceReference>
+      <DataSourceReference>DBHOSTHE</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>bd1806d7-2bf1-4520-951c-adcf962d2585</rd:DataSourceID>
     </DataSource>

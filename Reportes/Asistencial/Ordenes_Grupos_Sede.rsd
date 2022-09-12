@@ -95,10 +95,6 @@
         <DataField>Quantity</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
-      <Field Name="priece_quanty">
-        <DataField>priece_quanty</DataField>
-        <rd:TypeName>System.Double</rd:TypeName>
-      </Field>
       <Field Name="AuthorizationCode">
         <DataField>AuthorizationCode</DataField>
         <rd:TypeName>System.String</rd:TypeName>

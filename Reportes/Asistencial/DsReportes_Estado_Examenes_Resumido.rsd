@@ -28,11 +28,11 @@
           <OmitFromQuery>false</OmitFromQuery>
           <rd:DbType>AnsiString</rd:DbType>
         </DataSetParameter>
-        <DataSetParameter Name="@BranchId">
+        <DataSetParameter Name="@BranchIds">
           <ReadOnly>false</ReadOnly>
           <Nullable>false</Nullable>
           <OmitFromQuery>false</OmitFromQuery>
-          <rd:DbType>Guid</rd:DbType>
+          <rd:DbType>AnsiString</rd:DbType>
         </DataSetParameter>
       </DataSetParameters>
       <CommandType>StoredProcedure</CommandType>
@@ -93,10 +93,6 @@
       </Field>
       <Field Name="total">
         <DataField>total</DataField>
-        <rd:TypeName>System.Int32</rd:TypeName>
-      </Field>
-      <Field Name="Details">
-        <DataField>Details</DataField>
         <rd:TypeName>System.Int32</rd:TypeName>
       </Field>
     </Fields>

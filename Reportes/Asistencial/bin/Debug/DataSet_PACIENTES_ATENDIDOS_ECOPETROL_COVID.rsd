@@ -1,10 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <DataSet Name="DataSet1">
     <Query>
       <DataSourceReference>DBHOSTHE</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@FechaInicial">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@Fechafinal">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>DateTime</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
       <CommandType>StoredProcedure</CommandType>
-      <CommandText />
+      <CommandText>Reportes.PACIENTES_ATENDIDOS_ECOPETROL_COVID</CommandText>
     </Query>
+    <Fields>
+      <Field Name="TIPO_DE_IDENTIFICACION">
+        <DataField>TIPO DE IDENTIFICACION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NUMERO_DE_IDENTIFICACION">
+        <DataField>NUMERO DE IDENTIFICACION</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NOMBRES_Y_APELLIDOS">
+        <DataField>NOMBRES Y APELLIDOS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FECHA_TOMA">
+        <DataField>FECHA TOMA</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="TOTAL_LABORATORIO_TOMADOS">
+        <DataField>TOTAL LABORATORIO TOMADOS</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="DOMICILIOS">
+        <DataField>DOMICILIOS</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="SEDE">
+        <DataField>SEDE</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
   </DataSet>
 </SharedDataSet>

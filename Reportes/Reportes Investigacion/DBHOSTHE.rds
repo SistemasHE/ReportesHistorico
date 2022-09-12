@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DBHOSTHE">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=172.16.1.158;Initial Catalog=HigueraEscalante</ConnectString>
+    <ConnectString>Data Source=192.168.10.186;Initial Catalog=HigueraEscalante</ConnectString>
   </ConnectionProperties>
   <DataSourceID>07149635-7431-4d75-9ac6-b3517c3b02a0</DataSourceID>
 </RptDataSource>

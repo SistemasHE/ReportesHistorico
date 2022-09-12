@@ -44,46 +44,6 @@
         <DataField>Recepcionista</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
-      <Field Name="Fecha_Toma">
-        <DataField>Fecha Toma</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Auxiliar">
-        <DataField>Auxiliar</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Prioridad">
-        <DataField>Prioridad</DataField>
-        <rd:TypeName>System.Int32</rd:TypeName>
-      </Field>
-      <Field Name="Examen">
-        <DataField>Examen</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Sede">
-        <DataField>Sede</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Sección">
-        <DataField>Sección</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Fecha_Validado">
-        <DataField>Fecha Validado</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Bacteriologo">
-        <DataField>Bacteriologo</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Ambito">
-        <DataField>Ambito</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
-      <Field Name="Lugar_de_Entrega">
-        <DataField>Lugar de Entrega</DataField>
-        <rd:TypeName>System.String</rd:TypeName>
-      </Field>
     </Fields>
   </DataSet>
 </SharedDataSet>

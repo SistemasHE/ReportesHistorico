@@ -12,7 +12,7 @@
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
       <Field Name="NAME">
-        <DataField>NAME</DataField>
+        <DataField>Name</DataField>
         <rd:TypeName>System.String</rd:TypeName>
       </Field>
     </Fields>
